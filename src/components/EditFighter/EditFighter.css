@@ -1,0 +1,25 @@
+.fighters-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.clear-fights-btn {
+  background-color: rgb(250, 76, 76);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  padding: 16px;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  justify-items: center;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.clear-fights-btn:hover {
+  transform: scale(1.05);
+}

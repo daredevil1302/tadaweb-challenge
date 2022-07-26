@@ -1,0 +1,9 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  align-items: center;
+}
